@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giveaway Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        var ZMKHN_XBm_EyCwTc={"it":4344083,"key":"5e2cf"};
+    </script>
+    <script src="https://d26h1wdc757l2w.cloudfront.net/beaae1a.js"></script>
+</head>
+<body>
+    <script>setTimeout(_iD, 5000);</script>
+    <div class="video-container">
+        <!-- Video background -->
+        <video autoplay muted loop id="bgVideo">
+            <source src="bc.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="content">
+            <header>
+                <h1>Giveaway Spesial!</h1>
+                <p>Daftar sekarang untuk memenangkan hadiah luar biasa!</p>
+            </header>
+
+            <main>
+                <section class="giveaway-form">
+                    <h2>Daftar Sekarang</h2>
+                    <form id="giveawayForm">
+                        <label for="name">Nama Lengkap:</label>
+                        <input type="text" id="name" placeholder="Masukkan nama lengkap" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Masukkan email" required>
+
+                        <button type="submit">Daftar</button>
+                    </form>
+                </section>
+
+                <section class="participants">
+                    <h2>Peserta Terdaftar</h2>
+                    <ul id="participantList"></ul>
+                </section>
+
+                <section class="winner-section">
+                    <button id="pickWinner" disabled>Pilih Pemenang</button>
+                    <p id="winnerDisplay"></p>
+                </section>
+            </main>
+
+            <footer>
+                <p>&copy; 2024 Giveaway. Semua Hak Dilindungi.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>
